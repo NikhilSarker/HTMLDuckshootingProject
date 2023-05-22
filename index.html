@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Duck Game</title>
+  <!-- CSS LINK PART START -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- FOR SOUND PART START-->
+    <audio id="sound1" src="./images/shoot2.mp3" preload="auto"  ></audio>
+    <!-- FOR SOUND PART END-->
+    <!-- PLAY BUTTON PART START -->
+    <button type="submit" id="playBtn" >Play Game</button>
+    <!-- PAUSE BUTTON PART START -->
+    <button type="submit" id="pauseBtn">Pause Game</button>
+     <!-- PLAY AGAIN BUTTON PART START -->
+    <button type="submit" id="playAgainBtn">Play Again</button>
+    <!-- FOR THE DUCK PART START -->
+    <input type="checkbox" id="duck1">
+    <label for="duck1" class="duck1"></label>
+
+    <input type="checkbox" id="duck2">
+    <label for="duck2" class="duck2"></label>
+
+    <input type="checkbox" id="duck3">
+    <label for="duck3" class="duck3"></label>
+
+    <input type="checkbox" id="duck4">
+    <label for="duck4" class="duck4"></label>
+
+    <input type="checkbox" id="duck5">
+    <label for="duck5" class="duck5"></label>
+    <!-- FOR THE DUCK PART END -->
+    <!-- FOR SCORE PART START -->
+    <div class="score"></div>
+    <!-- CLOUD PART START  -->
+    <div id="cloud1"></div>
+    <div id="cloud2"></div>
+    <!-- CLOUD PART END  -->
+    <!-- SUN PART START -->
+    <div id="sun"></div>
+    <!-- SOIL PART START -->
+    <div id="soil"></div>
+  
+  </div>
+ <script src="js/main.js"></script>
+</body>
+
+</html>
